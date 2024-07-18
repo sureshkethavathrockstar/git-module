@@ -1,7 +1,7 @@
 variable "ami" {
     description = "passing value to main"
     type = string
-    default = "ami-0ec0e125bb6c6e8ec"
+    default = ""
 
   
 }
@@ -9,14 +9,14 @@ variable "ami" {
 variable "instance_type" {
     description = "passing value to main"
     type = string
-    default = "t2.micro"
+    default = ""
   
 }
 
 variable "key_name" {
     description = "passing value to main"
     type = string
-    default = "linux-kp"
+    default = ""
   
 }
 
