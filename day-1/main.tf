@@ -7,7 +7,7 @@ resource "aws_instance" "ec2" {
     instance_type = "t2.micro"
     key_name = "linux-kp"
     tags = {
-      Name = "webhook-custom"
+      Name = "webhook-1"
     }
   
 }
